@@ -4,15 +4,24 @@
      色を足したくなったら labelColor / color / *_color を変えるだけ。
 ═════════════════════════════════════════════════════════════ -->
 
-<!-- Header: 超ミニマルなテキスト見出し（画像ヘッダーは廃止）-->
-<h1 align="center">bubbleShaker</h1>
-<p align="center"><sub><code>software engineer / competitive programmer</code></sub></p>
-<p align="center"><sub>──────────────────────────────</sub></p>
+<!-- Header: grey typing。lines= の ; 区切りで役割を表示 -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=520&lines=software+engineer;competitive+programmer;bot+programming+%2F+CTF" alt="roles"/>
+</p>
 
 ## About
 
 Web からハードウェアまで、つくりたいものをつくる。<br/>
 競技プログラミングと、整った設計が好き。
+
+## Competitive
+
+<!-- 競技実績: プロフィールのリンク付きミニバッジ（モノクロ統一） -->
+<p align="center">
+  <a href="https://atcoder.jp/users/Coji"><img src="https://img.shields.io/badge/AtCoder-Algo%20%E7%B7%91%20%2F%20Heuristic%20%E7%B7%91-161b22?style=flat-square&labelColor=0d1117" alt="AtCoder"/></a>
+  <a href="https://www.codingame.com/profile/849d8aa7b432ac0c490dce3bdd25f18e9922307"><img src="https://img.shields.io/badge/CodinGame-Mentor-161b22?style=flat-square&labelColor=0d1117&logo=codingame&logoColor=white" alt="CodinGame"/></a>
+  <a href="https://app.hackthebox.com/users/2217328"><img src="https://img.shields.io/badge/Hack%20The%20Box-Script%20Kiddie-161b22?style=flat-square&labelColor=0d1117&logo=hackthebox&logoColor=white" alt="Hack The Box"/></a>
+</p>
 
 ## Tech Stack
 
@@ -47,14 +56,14 @@ Web からハードウェアまで、つくりたいものをつくる。<br/>
 <!-- 言語表とツール表を 6 列 1 表に統合し縦を半分にしている。用途は絵文字のみ（凡例は下） -->
 | Language | Lv | 用途 | | Tool | Lv | 用途 |
 | :-- | :-: | :-: | :-: | :-- | :-: | :-: |
-| TypeScript | ★★★★★ | 🏢 🧪 🤖 | | Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 |
-| C++ | ★★★★☆ | 🏆 | | Hono | ★★★☆☆ | 🏢 🤖 |
-| Python | ★★★☆☆ | 🧪 🤖 | | AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 |
-| C# | ★★★☆☆ | 🏢 🤖 | | Next.js | ★★★☆☆ | 🎓 🧪 |
-| HTML / CSS | ★★★☆☆ | 🧪 🎓 | | React Native (Expo) | ★★★☆☆ | 🧪 🤖 |
-| JavaScript | ★★☆☆☆ | 🎓 🧪 🤖 | | Node.js | ★★★☆☆ | 🧪 |
-| Ruby | ★★☆☆☆ | 🎓 | | M5Stack (IoT) | ★★★☆☆ | 🧪 🤖 |
-| Java / C | ★☆☆☆☆ | 🎓 | | Docker | ★★☆☆☆ | 🏢 🧪 🤖 |
+| C++ | ★★★★☆ | 🏆 | | Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 |
+| TypeScript | ★★★☆☆ | 🏢 🧪 🤖 | | AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 |
+| Python | ★★★☆☆ | 🧪 🤖 | | React Native (Expo) | ★★★☆☆ | 🧪 🤖 |
+| C# | ★★★☆☆ | 🏢 🏆 🤖 | | Node.js | ★★★☆☆ | 🧪 |
+| HTML / CSS | ★★★☆☆ | 🧪 🎓 | | M5Stack (IoT) | ★★★☆☆ | 🧪 🤖 |
+| JavaScript | ★★☆☆☆ | 🎓 🧪 🤖 | | Docker | ★★★☆☆ | 🏢 🧪 🤖 |
+| Ruby | ★★☆☆☆ | 🎓 | | Hono | ★★☆☆☆ | 🏢 🤖 |
+| Java / C | ★☆☆☆☆ | 🎓 | | Next.js | ★☆☆☆☆ | 🎓 🧪 |
 
 <sub>🏷️ 🏢 業務 ・ 🏆 競プロ ・ 🎓 大学の講義 ・ 🧪 個人開発 ・ 🤖 AI支援（Claude とのバイブコーディング）　｜　⭐ Lv = リポジトリ活動量からの目安</sub>
 
@@ -62,7 +71,7 @@ Web からハードウェアまで、つくりたいものをつくる。<br/>
 
 <!-- grayscale 統計カード 1 枚のみ（テーマ統一・縦圧縮のため top-langs / streak / graph は削除）-->
 <p align="center">
-  <img height="170px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=c9d1d9&rank_icon=github" alt="stats"/>
+  <img height="170px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=c9d1d9" alt="stats"/>
 </p>
 
 <!-- ════════════════════════════════════════════════════════════
