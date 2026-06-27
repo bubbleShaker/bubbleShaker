@@ -9,11 +9,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=520&lines=software+engineer;competitive+programmer;bot+programming+%2F+CTF" alt="roles"/>
 </p>
 
-## About
-
-Web からハードウェアまで、つくりたいものをつくります。<br/>
-競技プログラミングと、整った設計が好き。
-
 ## Competitive
 
 <!-- 競技実績: プロフィールのリンク付きミニバッジ（モノクロ統一） -->
