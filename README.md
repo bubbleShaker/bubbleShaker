@@ -12,13 +12,13 @@
 ## About
 
 Web からハードウェアまで、つくりたいものをつくります。<br/>
-競技プログラミングと、整った設計が好きです。
+競技プログラミングと、整った設計が好き。
 
 ## Competitive
 
 <!-- 競技実績: プロフィールのリンク付きミニバッジ（モノクロ統一） -->
 <p align="center">
-  <a href="https://atcoder.jp/users/Coji"><img src="https://img.shields.io/badge/AtCoder-Algo%20%E7%B7%91%20%2F%20Heuristic%20%E7%B7%91-008000?style=flat-square&labelColor=0d1117" alt="AtCoder"/></a>
+  <a href="https://atcoder.jp/users/Coji"><img src="https://img.shields.io/badge/AtCoder-Algo%20%E7%B7%91%20%2F%20Heuristic%20%E7%B7%91-161b22?style=flat-square&labelColor=0d1117" alt="AtCoder"/></a>
   <a href="https://www.codingame.com/profile/849d8aa7b432ac0c490dce3bdd25f18e9922307"><img src="https://img.shields.io/badge/CodinGame-Mentor-161b22?style=flat-square&labelColor=0d1117&logo=codingame&logoColor=white" alt="CodinGame"/></a>
   <a href="https://app.hackthebox.com/users/2217328"><img src="https://img.shields.io/badge/Hack%20The%20Box-Script%20Kiddie-161b22?style=flat-square&labelColor=0d1117&logo=hackthebox&logoColor=white" alt="Hack The Box"/></a>
   <a href="https://www.codechef.com/users/coji"><img src="https://img.shields.io/badge/CodeChef-161b22?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef"/></a>
@@ -55,29 +55,32 @@ Web からハードウェアまで、つくりたいものをつくります。<
 ## Skill Levels
 
 <!-- 言語表とツール表を 6 列 1 表に統合し縦を半分にしている。用途は絵文字のみ（凡例は下） -->
+<!-- 用途は lucide 白アイコン(#808080) を Iconify API 経由で埋め込み。色は中間グレーでライト/ダーク両対応。
+     業務=briefcase 競プロ=trophy 学業=graduation-cap 個人開発=flask-conical AI支援=bot。ホバーで title が出る。 -->
 | Language | Lv | 用途 | | Tool | Lv | 用途 |
-| :-- | :-: | :-: | :-: | :-- | :-: | :-: |
-| C++ | ★★★★☆ | 🏆 | | Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 |
-| TypeScript | ★★★☆☆ | 🏢 🧪 🤖 | | AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 |
-| Python | ★★★☆☆ | 🧪 🤖 | | React Native (Expo) | ★★★☆☆ | 🧪 🤖 |
-| C# | ★★★☆☆ | 🏢 🏆 🤖 | | Node.js | ★★★☆☆ | 🧪 |
-| HTML / CSS | ★★★☆☆ | 🧪 🎓 | | M5Stack (IoT) | ★★★☆☆ | 🧪 🤖 |
-| JavaScript | ★★☆☆☆ | 🎓 🧪 🤖 | | Docker | ★★★☆☆ | 🏢 🧪 🤖 |
-| Ruby | ★★☆☆☆ | 🎓 | | Hono | ★★☆☆☆ | 🏢 🤖 |
-| Java / C | ★☆☆☆☆ | 🎓 | | Next.js | ★☆☆☆☆ | 🎓 🧪 |
+| :-- | :-: | :-- | :-: | :-- | :-: | :-- |
+| C++ | ★★★★☆ | <img src="https://api.iconify.design/lucide/trophy.svg?color=%23808080" height="14" title="競プロ"/> | | Git / GitHub | ★★★★☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| TypeScript | ★★★☆☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> | | AWS (CDK / Lambda) | ★★★☆☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| Python | ★★★☆☆ | <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> | | React Native (Expo) | ★★★☆☆ | <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| C# | ★★★☆☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/trophy.svg?color=%23808080" height="14" title="競プロ"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> | | Node.js | ★★★☆☆ | <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> |
+| HTML / CSS | ★★★☆☆ | <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="14" title="大学の講義"/> | | M5Stack (IoT) | ★★★☆☆ | <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| JavaScript | ★★☆☆☆ | <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="14" title="大学の講義"/> <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> | | Docker | ★★★☆☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| Ruby | ★★☆☆☆ | <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="14" title="大学の講義"/> | | Hono | ★★☆☆☆ | <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="14" title="業務"/> <img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="14" title="AI支援"/> |
+| Java / C | ★☆☆☆☆ | <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="14" title="大学の講義"/> | | Next.js | ★☆☆☆☆ | <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="14" title="大学の講義"/> <img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="14" title="個人開発"/> |
 
-<sub>🏷️ 🏢 業務 ・ 🏆 競プロ ・ 🎓 大学の講義 ・ 🧪 個人開発 ・ 🤖 AI支援（Claude とのバイブコーディング）　｜　⭐ Lv = リポジトリ活動量からの目安</sub>
+<sub>
+<img src="https://api.iconify.design/lucide/briefcase.svg?color=%23808080" height="13"/> 業務 ・
+<img src="https://api.iconify.design/lucide/trophy.svg?color=%23808080" height="13"/> 競プロ ・
+<img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23808080" height="13"/> 大学の講義 ・
+<img src="https://api.iconify.design/lucide/flask-conical.svg?color=%23808080" height="13"/> 個人開発 ・
+<img src="https://api.iconify.design/lucide/bot.svg?color=%23808080" height="13"/> AI支援（Claude とのバイブコーディング）　｜　★ Lv = リポジトリ活動量からの目安
+</sub>
 
 ## Stats
 
 <!-- grayscale 統計カード 1 枚のみ（テーマ統一・縦圧縮のため top-langs / streak / graph は削除）-->
 <p align="center">
   <img height="170px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=c9d1d9" alt="stats"/>
-</p>
-
-<!-- Links: ブログ等（モノクロ・テキストバッジ） -->
-<p align="center">
-  <a href="https://sizu.me/bubble_shaker"><img src="https://img.shields.io/badge/Blog-sizu.me-161b22?style=flat-square&labelColor=0d1117" alt="Blog (sizu.me)"/></a>
 </p>
 
 <!-- ════════════════════════════════════════════════════════════
