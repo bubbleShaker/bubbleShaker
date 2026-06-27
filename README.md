@@ -1,153 +1,83 @@
 <!-- ════════════════════════════════════════════════════════════
-     1. 波グラデーションヘッダー (capsule-render)
-     text= の部分を好きな文字に変更できる
+     Theme: Monochrome (GitHub dark grayscale) / lain-inspired
+     全要素を #0d1117〜#30363d のグレースケールで統一している。
+     色を足したくなったら labelColor / color / *_color を変えるだけ。
 ═════════════════════════════════════════════════════════════ -->
+
+<!-- Header: 슬림 grayscale capsule。text= で表示名を変更 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=bubbleShaker&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=150&section=header&text=bubbleShaker&fontSize=58&fontColor=c9d1d9&animation=fadeIn&fontAlignY=35" width="100%"/>
+</p>
+
+<!-- Tagline: grey typing。最終行は lain のオープニング引用 -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=900&color=8B949E&center=true&vCenter=true&width=620&lines=Web+%C3%97+IoT+%C3%97+Competitive+Programming;Vibe+coding+with+Claude;Present+day...+present+time..." alt="tagline"/>
+</p>
+
+## About
+
+- 🏢 **Web**（TypeScript / Next.js / Hono / AWS）と **IoT**（M5Stack / C++）を制作
+- 🏆 **AtCoder** で競技プログラミングに挑戦中
+- 🌱 クリーンアーキテクチャと SOLID を意識した設計を探求中
+
+## Tech Stack
+
+<!-- Languages: Shields.io モノクロバッジ（color=161b22 で統一）-->
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-161b22?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%23-161b22?style=flat-square&logo=dotnet&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Java-161b22?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/C-161b22?style=flat-square&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/Ruby-161b22?style=flat-square&logo=ruby&logoColor=white" alt="Ruby"/>
+  <img src="https://img.shields.io/badge/HTML5-161b22?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS-161b22?style=flat-square&logo=css&logoColor=white" alt="CSS"/>
+</p>
+
+<!-- Frameworks & Tools: AWS は simpleicons に商標削除でロゴ無し → テキストバッジ -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Hono-161b22?style=flat-square&logo=hono&logoColor=white" alt="Hono"/>
+  <img src="https://img.shields.io/badge/Next.js-161b22?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React_Native-161b22?style=flat-square&logo=expo&logoColor=white" alt="React Native (Expo)"/>
+  <img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/AWS-161b22?style=flat-square&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+</p>
+
+## Skill Levels
+
+<!-- 言語表とツール表を 6 列 1 表に統合し縦を半分にしている。用途は絵文字のみ（凡例は下） -->
+| Language | Lv | 用途 | | Tool | Lv | 用途 |
+| :-- | :-: | :-: | :-: | :-- | :-: | :-: |
+| TypeScript | ★★★★★ | 🏢 🧪 🤖 | | Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 |
+| C++ | ★★★★☆ | 🏆 | | Hono | ★★★☆☆ | 🏢 🤖 |
+| Python | ★★★☆☆ | 🧪 🤖 | | AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 |
+| C# | ★★★☆☆ | 🏢 🤖 | | Next.js | ★★★☆☆ | 🎓 🧪 |
+| HTML / CSS | ★★★☆☆ | 🧪 🎓 | | React Native (Expo) | ★★★☆☆ | 🧪 🤖 |
+| JavaScript | ★★☆☆☆ | 🎓 🧪 🤖 | | Node.js | ★★★☆☆ | 🧪 |
+| Ruby | ★★☆☆☆ | 🎓 | | M5Stack (IoT) | ★★★☆☆ | 🧪 🤖 |
+| Java / C | ★☆☆☆☆ | 🎓 | | Docker | ★★☆☆☆ | 🏢 🧪 🤖 |
+
+<sub>🏷️ 🏢 業務 ・ 🏆 競プロ ・ 🎓 大学の講義 ・ 🧪 個人開発 ・ 🤖 AI支援（Claude とのバイブコーディング）　｜　⭐ Lv = リポジトリ活動量からの目安</sub>
+
+## Stats
+
+<!-- grayscale 統計カード 1 枚のみ（テーマ統一・縦圧縮のため top-langs / streak / graph は削除）-->
+<p align="center">
+  <img height="170px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=c9d1d9&rank_icon=github" alt="stats"/>
 </p>
 
 <!-- ════════════════════════════════════════════════════════════
-     2. タイピングアニメ自己紹介 (readme-typing-svg)
-     lines= に表示したい行を ; 区切りで書く（URL エンコード済み空白は %20 ではなく + でも可）
+     Trophies: 公開 Vercel デプロイが現在 402(DEPLOYMENT_DISABLED) で停止中、
+     かつカラーテーマがモノクロ統一を乱すため一時コメントアウト。
+     復活したら theme=gitdimmed（grayscale 系）で下を有効化する。
+## Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bubbleShaker&theme=gitdimmed&no-frame=true&column=8&margin-w=8&margin-h=8" alt="trophies"/>
+</p>
 ═════════════════════════════════════════════════════════════ -->
-<p align="center">
-  <a href="https://github.com/bubbleShaker">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=650&lines=Hello!+I'm+bubbleShaker+%F0%9F%91%8B;Competitive+Programming+with+C%2B%2B;Web+Dev+with+TypeScript+%26+Next.js;IoT+%C3%97+Cloud+%C3%97+Vibe+Coding" alt="Typing SVG"/>
-  </a>
-</p>
-
-<!-- ════════════════════════════════════════════════════════════
-     3. About Me  ← ここは自分で編集する場所（仮置き）
-═════════════════════════════════════════════════════════════ -->
-## 🧑‍💻 About Me
-
-- 🔭 作っているもの: **Web アプリ**（TypeScript / Next.js / Hono / AWS CDK）, **IoT**（M5Stack / C++）, **ASMR 動画パイプライン**（Python）
-- 🏆 競技プログラミング: **AtCoder** に参加（C++）
-- 🌱 学んでいること: クリーンアーキテクチャ・SOLID・サーバーレス（AWS Lambda）
-- ⚡ ひとこと: Claude とオーケストレーション開発をするのが好き
-- 📫 連絡先: intselectk@gmail.com
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════════════
-     1. 技術スタック (skill-icons)
-     i= の後にカンマ区切りでアイコン名を並べる
-     使えるアイコン一覧: https://skillicons.dev
-═════════════════════════════════════════════════════════════ -->
-## 🛠️ Tech Stack
-
-<!-- Languages: 実リポジトリの使用言語順（C++ / TS が中心） -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,ts,js,python,cs,java,c&theme=dark&perline=10" alt="languages"/>
-</p>
-<!-- Frameworks & Tools: リポジトリ名から判明した実スタック（Hono は skillicons 未対応なので除外） -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,aws,docker&theme=dark&perline=10" alt="frameworks and tools"/>
-</p>
-
-<!-- レベル分類: リポジトリの活動量（バイト量・本数・更新日・実用/学習）から機械的に算出した目安 -->
-### 📶 Skill Levels
-
-> ⭐ **Level** は GitHub リポジトリの コード量(byte%)・本数・最終更新月 から機械的に算出した目安です。
-> 🏷️ **用途**: 🏢 業務 / 🏆 競技プログラミング / 🎓 大学の講義 / 🧪 個人開発　＋　🤖 = AI支援 (Claude とのバイブコーディング)
-
-**Languages**
-
-| Language | Level | 用途 | 根拠（リポジトリ実績） |
-| :--- | :---: | :---: | :--- |
-| TypeScript | ★★★★★ | 🏢 🧪 🤖 | byte 24.9%・**6 リポジトリ**で最多。実アプリを 2026-06 に 4 本更新（`habit-tracker` `nightmare` `ore-genesis-sim` 他） |
-| C++ | ★★★★☆ | 🏆 | **byte 最多 29.8%**・4 リポジトリ。`AtCoder` `atcoder_library`(608KB) + IoT `m5-cores3-lite` |
-| Python | ★★★☆☆ | 🧪 🤖 | byte 8.0%・4 リポジトリ。実用ツールを 2026-06 更新（`asmr-pipeline` `animate-algorithms`） |
-| C# | ★★★☆☆ | 🏢 🤖 | byte 7.2%・`event`(77KB) を 2026-06 に開発 |
-| HTML / CSS | ★★★☆☆ | 🧪 🎓 | byte 12.1%・**4 制作物** + 公開サイト（`bubble-shaker.github.io`） |
-| JavaScript | ★★☆☆☆ | 🎓 🧪 🤖 | byte 6.0%・専用は `lain`(2026-03) 程度。実装は TypeScript に集約 |
-| Ruby | ★★☆☆☆ | 🎓 | byte 7.9%・`cherry_book` `ruby_guide`（学習用）・更新は 2024-05 で停止 |
-| Java / C | ★☆☆☆☆ | 🎓 | 各 **1 本のみ**（`solve_maze_by_BFS` / `stemmer`）・2024-04 以降更新なし |
-
-**Frameworks & Tools**
-
-| Tool | Level | 用途 | 根拠（リポジトリ実績） |
-| :--- | :---: | :---: | :--- |
-| Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 | 全 27 リポジトリで日常的に運用 |
-| Hono | ★★★☆☆ | 🏢 🤖 | `hono-cdk-monorepo` を 2026-06 更新（サーバーレス API） |
-| AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 | `hono-cdk-monorepo` で IaC・サーバーレス構成を構築 |
-| Next.js | ★★★☆☆ | 🎓 🧪 | `next_book`(7.7MB) で構築。TS アプリの基盤 |
-| React Native (Expo) | ★★★☆☆ | 🧪 🤖 | `habit-tracker`(1.5MB) を 2026-06 に更新中 |
-| Node.js | ★★★☆☆ | 🧪 | TS / JS プロジェクトの実行基盤として常用 |
-| M5Stack (IoT) | ★★★☆☆ | 🧪 🤖 | `m5-cores3-lite`(254KB) を 2026-06 に更新 |
-| Docker | ★★☆☆☆ | 🏢 🧪 🤖 | 業務・個人開発の両方で利用（Dockerfile, byte 0.5%） |
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════════════
-     5. GitHub 統計カード + 連続コミット (横並び)
-     全部 theme=tokyonight で色味を統一している
-═════════════════════════════════════════════════════════════ -->
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="stats"/>
-  <img height="165px" src="https://github-readme-streak-stats.herokuapp.com/?user=bubbleShaker&hide_border=true&theme=tokyonight" alt="streak"/>
-</p>
-
-<p align="center">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubbleShaker&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=tokyonight" alt="top langs"/>
-</p>
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════════════
-     6. 実績トロフィー (github-profile-trophy)
-═════════════════════════════════════════════════════════════ -->
-<!-- Trophies: 公開 Vercel デプロイは時々 402(DEPLOYMENT_DISABLED) で停止する。
-     停止中はこの画像が壊れて表示されるが、サービス復活時に自動で再表示される。 -->
-## 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bubbleShaker&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
-</p>
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════════════
-     7. 活動グラフ（草の折れ線） (activity-graph)
-═════════════════════════════════════════════════════════════ -->
-## 📈 Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bubbleShaker&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=ffffff&area=true&hide_border=true" width="100%" alt="activity graph"/>
-</p>
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════════════
-     8. SNS リンクバッジ  ← ここも自分で編集する場所（仮置き）
-     URL とユーザー名を自分のものに差し替える
-═════════════════════════════════════════════════════════════ -->
-## 🔗 Links
-
-<p align="center">
-  <a href="https://github.com/bubbleShaker">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:intselectk@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://x.com/bubble_shaker">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
-  </a>
-</p>
-
-<!-- ════════════════════════════════════════════════════════════
-     訪問者カウンター（任意）
-═════════════════════════════════════════════════════════════ -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bubbleShaker&style=flat-square&color=7aa2f7&label=Profile+Views" alt="profile views"/>
-</p>
-
-<!-- ════════════════════════════════════════════════════════════
-     1. 下部の締めヘッダー (capsule-render)
-═════════════════════════════════════════════════════════════ -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" width="100%"/>
-</p>
