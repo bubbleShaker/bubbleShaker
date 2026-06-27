@@ -68,7 +68,7 @@
 
 | Tool | Level | 用途 | 根拠（リポジトリ実績） |
 | :--- | :---: | :---: | :--- |
-| Git / GitHub | ★★★★☆ | 🏢 🧪 | 全 27 リポジトリで日常的に運用 |
+| Git / GitHub | ★★★★☆ | 🏢 🧪 🤖 | 全 27 リポジトリで日常的に運用 |
 | Hono | ★★★☆☆ | 🏢 🤖 | `hono-cdk-monorepo` を 2026-06 更新（サーバーレス API） |
 | AWS (CDK / Lambda) | ★★★☆☆ | 🏢 🤖 | `hono-cdk-monorepo` で IaC・サーバーレス構成を構築 |
 | Next.js | ★★★☆☆ | 🎓 🧪 | `next_book`(7.7MB) で構築。TS アプリの基盤 |
