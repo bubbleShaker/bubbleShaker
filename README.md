@@ -11,16 +11,17 @@
 
 ## About
 
-Web からハードウェアまで、つくりたいものをつくる。<br/>
-競技プログラミングと、整った設計が好き。
+Web からハードウェアまで、つくりたいものをつくります。<br/>
+競技プログラミングと、整った設計が好きです。
 
 ## Competitive
 
 <!-- 競技実績: プロフィールのリンク付きミニバッジ（モノクロ統一） -->
 <p align="center">
-  <a href="https://atcoder.jp/users/Coji"><img src="https://img.shields.io/badge/AtCoder-Algo%20%E7%B7%91%20%2F%20Heuristic%20%E7%B7%91-161b22?style=flat-square&labelColor=0d1117" alt="AtCoder"/></a>
+  <a href="https://atcoder.jp/users/Coji"><img src="https://img.shields.io/badge/AtCoder-Algo%20%E7%B7%91%20%2F%20Heuristic%20%E7%B7%91-008000?style=flat-square&labelColor=0d1117" alt="AtCoder"/></a>
   <a href="https://www.codingame.com/profile/849d8aa7b432ac0c490dce3bdd25f18e9922307"><img src="https://img.shields.io/badge/CodinGame-Mentor-161b22?style=flat-square&labelColor=0d1117&logo=codingame&logoColor=white" alt="CodinGame"/></a>
   <a href="https://app.hackthebox.com/users/2217328"><img src="https://img.shields.io/badge/Hack%20The%20Box-Script%20Kiddie-161b22?style=flat-square&labelColor=0d1117&logo=hackthebox&logoColor=white" alt="Hack The Box"/></a>
+  <a href="https://www.codechef.com/users/coji"><img src="https://img.shields.io/badge/CodeChef-161b22?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef"/></a>
 </p>
 
 ## Tech Stack
@@ -72,6 +73,11 @@ Web からハードウェアまで、つくりたいものをつくる。<br/>
 <!-- grayscale 統計カード 1 枚のみ（テーマ統一・縦圧縮のため top-langs / streak / graph は削除）-->
 <p align="center">
   <img height="170px" src="https://github-readme-stats.vercel.app/api?username=bubbleShaker&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=c9d1d9" alt="stats"/>
+</p>
+
+<!-- Links: ブログ等（モノクロ・テキストバッジ） -->
+<p align="center">
+  <a href="https://sizu.me/bubble_shaker"><img src="https://img.shields.io/badge/Blog-sizu.me-161b22?style=flat-square&labelColor=0d1117" alt="Blog (sizu.me)"/></a>
 </p>
 
 <!-- ════════════════════════════════════════════════════════════
