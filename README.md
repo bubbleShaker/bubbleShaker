@@ -4,21 +4,15 @@
      色を足したくなったら labelColor / color / *_color を変えるだけ。
 ═════════════════════════════════════════════════════════════ -->
 
-<!-- Header: 슬림 grayscale capsule。text= で表示名を変更 -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=150&section=header&text=bubbleShaker&fontSize=58&fontColor=c9d1d9&animation=fadeIn&fontAlignY=35" width="100%"/>
-</p>
-
-<!-- Tagline: grey typing。最終行は lain のオープニング引用 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=900&color=8B949E&center=true&vCenter=true&width=620&lines=Web+%C3%97+IoT+%C3%97+Competitive+Programming;Vibe+coding+with+Claude;Present+day...+present+time..." alt="tagline"/>
-</p>
+<!-- Header: 超ミニマルなテキスト見出し（画像ヘッダーは廃止）-->
+<h1 align="center">bubbleShaker</h1>
+<p align="center"><sub><code>software engineer / competitive programmer</code></sub></p>
+<p align="center"><sub>──────────────────────────────</sub></p>
 
 ## About
 
-- 🏢 **Web**（TypeScript / Next.js / Hono / AWS）と **IoT**（M5Stack / C++）を制作
-- 🏆 **AtCoder** で競技プログラミングに挑戦中
-- 🌱 クリーンアーキテクチャと SOLID を意識した設計を探求中
+Web からハードウェアまで、つくりたいものをつくる。<br/>
+競技プログラミングと、整った設計が好き。
 
 ## Tech Stack
 
