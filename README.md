@@ -42,38 +42,40 @@
 </p>
 <!-- Frameworks & Tools: リポジトリ名から判明した実スタック（Hono は skillicons 未対応なので除外） -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,aws,docker,git,github,vscode,linux&theme=dark&perline=10" alt="frameworks and tools"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,aws,docker,git,github,vscode,linux&theme=dark&perline=10" alt="frameworks and tools"/>
 </p>
 
 <!-- レベル分類: リポジトリの活動量（バイト量・本数・更新日・実用/学習）から機械的に算出した目安 -->
 ### 📶 Skill Levels
 
-> ⭐ 星は GitHub リポジトリの **コード量(byte%) ・本数 ・最終更新月 ・用途(実プロジェクト/学習)** から機械的に算出した目安です。
+> ⭐ **Level** は GitHub リポジトリの コード量(byte%)・本数・最終更新月 から機械的に算出した目安です。
+> 🏷️ **用途**: 🏢 業務 / 🏆 競技プログラミング / 🎓 大学の講義 / 🧪 個人開発 (AI支援 = Claude とのバイブコーディング)
 
 **Languages**
 
-| Language | Level | 根拠（リポジトリ実績） |
-| :--- | :---: | :--- |
-| TypeScript | ★★★★★ | byte 24.9%・**6 リポジトリ**で最多。実アプリを 2026-06 に 4 本更新（`hono-cdk-monorepo` `habit-tracker` `nightmare` `ore-genesis-sim`） |
-| C++ | ★★★★☆ | **byte 最多 29.8%**・4 リポジトリ。競技プロ（`AtCoder` `atcoder_library` 608KB）+ IoT（`m5-cores3-lite` 2026-06）と現役 |
-| Python | ★★★☆☆ | byte 8.0%・4 リポジトリ。実用ツールを 2026-06 更新（`asmr-pipeline` `animate-algorithms` 273KB） |
-| C# | ★★★☆☆ | byte 7.2%・`event`(77KB) を 2026-06 に開発。実用だがリポジトリは **1 本** |
-| HTML / CSS | ★★★☆☆ | byte 12.1%・**4 制作物** + 公開サイト（`bubble-shaker.github.io`）。ただし大半は学習用 |
-| JavaScript | ★★☆☆☆ | byte 6.0%・専用は `lain`(2026-03) 程度。実装は TypeScript に集約 |
-| Ruby | ★★☆☆☆ | byte 7.9% あるが `cherry_book` `ruby_guide` の**学習用のみ**・更新は 2024-05 で停止 |
-| Java / C | ★☆☆☆☆ | 各 **1 本のみ**（`solve_maze_by_BFS` 9KB / `stemmer` 3KB）・2024-04 以降更新なし |
+| Language | Level | 用途 | 根拠（リポジトリ実績） |
+| :--- | :---: | :--- | :--- |
+| TypeScript | ★★★★★ | 🧪 個人開発 (AI支援) | byte 24.9%・**6 リポジトリ**で最多。実アプリを 2026-06 に 4 本更新（`habit-tracker` `nightmare` `ore-genesis-sim` 他） |
+| C++ | ★★★★☆ | 🏆 競技プログラミング | **byte 最多 29.8%**・4 リポジトリ。`AtCoder` `atcoder_library`(608KB) + IoT `m5-cores3-lite` |
+| Python | ★★★☆☆ | 🧪 個人開発 (AI支援) | byte 8.0%・4 リポジトリ。実用ツールを 2026-06 更新（`asmr-pipeline` `animate-algorithms`） |
+| C# | ★★★☆☆ | 🏢 業務 | byte 7.2%・`event`(77KB) を 2026-06 に開発 |
+| HTML / CSS | ★★★☆☆ | 🧪 個人開発・🎓 学習 | byte 12.1%・**4 制作物** + 公開サイト（`bubble-shaker.github.io`） |
+| JavaScript | ★★☆☆☆ | 🧪 個人開発 | byte 6.0%・専用は `lain`(2026-03) 程度。実装は TypeScript に集約 |
+| Ruby | ★★☆☆☆ | 🎓 大学の講義 | byte 7.9%・`cherry_book` `ruby_guide`（学習用）・更新は 2024-05 で停止 |
+| Java / C | ★☆☆☆☆ | 🎓 大学の講義 | 各 **1 本のみ**（`solve_maze_by_BFS` / `stemmer`）・2024-04 以降更新なし |
 
 **Frameworks & Tools**
 
-| Tool | Level | 根拠（リポジトリ実績） |
-| :--- | :---: | :--- |
-| Git / GitHub | ★★★★☆ | 全 27 リポジトリで日常的に運用 |
-| Next.js | ★★★☆☆ | `next_book`(7.7MB) で構築。TS アプリの基盤 |
-| React Native (Expo) | ★★★☆☆ | `habit-tracker`(1.5MB) を 2026-06 に更新中 |
-| Hono | ★★★☆☆ | `hono-cdk-monorepo` を 2026-06 更新（サーバーレス API） |
-| AWS (CDK / Lambda) | ★★★☆☆ | `hono-cdk-monorepo` で IaC・サーバーレス構成を構築 |
-| Node.js | ★★★☆☆ | TS / JS プロジェクトの実行基盤として常用 |
-| M5Stack (IoT) | ★★★☆☆ | `m5-cores3-lite`(254KB) を 2026-06 に更新 |
+| Tool | Level | 用途 | 根拠（リポジトリ実績） |
+| :--- | :---: | :--- | :--- |
+| Git / GitHub | ★★★★☆ | 🏢 業務・🧪 個人開発 | 全 27 リポジトリで日常的に運用 |
+| Hono | ★★★☆☆ | 🏢 業務 | `hono-cdk-monorepo` を 2026-06 更新（サーバーレス API） |
+| AWS (CDK / Lambda) | ★★★☆☆ | 🏢 業務 | `hono-cdk-monorepo` で IaC・サーバーレス構成を構築 |
+| Next.js | ★★★☆☆ | 🧪 個人開発 (AI支援) | `next_book`(7.7MB) で構築。TS アプリの基盤 |
+| React Native (Expo) | ★★★☆☆ | 🧪 個人開発 (AI支援) | `habit-tracker`(1.5MB) を 2026-06 に更新中 |
+| Node.js | ★★★☆☆ | 🧪 個人開発 | TS / JS プロジェクトの実行基盤として常用 |
+| M5Stack (IoT) | ★★★☆☆ | 🧪 個人開発 | `m5-cores3-lite`(254KB) を 2026-06 に更新 |
+| Docker | ★★☆☆☆ | 🧪 個人開発 | 一部リポジトリで Dockerfile を使用（byte 0.5%） |
 | Docker | ★★☆☆☆ | 一部リポジトリで Dockerfile を使用（byte 0.5%） |
 
 <br/>
